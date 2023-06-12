@@ -4,7 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "ts-node src/app/server_app/Launcher.ts"
   },
   "devDependencies": {
     "@types/jest": "^29.5.2",
